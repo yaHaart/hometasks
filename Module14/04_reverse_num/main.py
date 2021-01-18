@@ -1,7 +1,6 @@
 def revers_number(number):
     line = str(number)
     a = line.split('.')
-    new_line = ''
     new_line = a[0][::-1] + '.' + a[1][::-1]
     return float(new_line)
 
@@ -15,3 +14,4 @@ print('Первое число наоборот: ', rev_num1)
 print('Второе число наоборот: ', rev_num2)
 print('Сумма: ', rev_num1 + rev_num2)
 
+# зачёт! 🚀
