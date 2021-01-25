@@ -11,3 +11,5 @@ for char in fraze:
         uniq_list.append(char)
 
 print('2 Кол-во уникальных букв: ', len(uniq_list))
+
+# зачёт! 🚀

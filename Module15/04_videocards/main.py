@@ -11,3 +11,5 @@ for i in videocards:
         new_video_list.append(i)
 
 print('Новый список видеокарт: ', new_video_list)
+
+# зачёт! 🚀

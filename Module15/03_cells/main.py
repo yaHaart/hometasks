@@ -6,3 +6,5 @@ for i in range(len(cell_list)):
     if i > cell_list[i]:
         bad_cells.append(cell_list[i])
 print('Неподходящие значения: ', bad_cells)
+
+# зачёт! 🚀

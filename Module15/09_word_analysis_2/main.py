@@ -1,8 +1,5 @@
 def revers_string(message):
-    if message == message[::-1]:
-        return True
-    else:
-        return False
+    return message == message[::-1]  # так тоже можно
 
 
 line = input('Введите слово ')
@@ -11,3 +8,5 @@ if flag:
     print('Слово является палиндромом')
 else:
     print('Слово не является палиндромом')
+
+# зачёт! 🚀
