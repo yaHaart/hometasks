@@ -6,7 +6,9 @@ favorites_films = []
 flag = True
 while flag:
     film = input(' Введите любимый фильм. Для окончания ввода введите пустую строку ')
-    if film in films:
+    if film in favorites_films:
+        print('такой фильм уже сохранен ')
+    elif film in films:
         favorites_films.append(film)
         print('Добавлен ')
     elif film not in films and film != '':
