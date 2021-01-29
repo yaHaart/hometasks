@@ -9,5 +9,12 @@ violator_songs = [
     ['Blue Dress', 4.29],
     ['Clean', 5.83]
 ]
-
-# TODO здесь писать код
+new_songs = []
+summ = 0
+new_list_len = int(input('Сколько песен выбрать? '))
+for i in range(new_list_len):
+    song = input(f'Название {i + 1} песни: ')
+    for j in violator_songs:
+        if j[0] == song:
+            summ += j[1]
+print(round(summ, 2))
