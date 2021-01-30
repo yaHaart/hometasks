@@ -16,3 +16,5 @@ for i in range(1, receipt_number + 1):
 print('Баланс друзей ')
 for key, value in balance.items():
     print(key, ":", value)
+
+# зачёт! 🚀

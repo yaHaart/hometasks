@@ -18,3 +18,5 @@ for i in range(new_list_len):
         if j[0] == song:
             summ += j[1]
 print(round(summ, 2))
+
+# зачёт! 🚀

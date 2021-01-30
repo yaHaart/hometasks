@@ -28,3 +28,5 @@ for i in range(len(numbers)):
             print(numbers[ind], end=' ')
         break
     del revers_numbers[-1]
+
+# зачёт! 🚀
