@@ -5,3 +5,5 @@ win_list = [max(first_team[x], second_team[x]) for x in range(20)]
 print(first_team)
 print(second_team)
 print(win_list)
+
+# зачёт! 🚀

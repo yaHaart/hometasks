@@ -9,3 +9,5 @@ for char in new_line:
     print(char, end='')
 
 print()
+
+# зачёт! 🚀

@@ -9,3 +9,5 @@ new_list = [nice_list[x][y][z]
             ]
 
 print(new_list)
+
+# зачёт! 🚀

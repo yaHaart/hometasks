@@ -30,3 +30,5 @@ print('9', like_7)
 
 like_9 = alphabet[2:5]
 print('10', like_9)
+
+# зачёт! 🚀

@@ -12,3 +12,5 @@ shots_numbers_unic = set(shots_numbers)
 sticks_out = [('.' if x in shots_numbers_unic else '!') for x in range(1, sticks + 1)]
 for x in sticks_out:
     print(x, end='')
+
+# зачёт! 🚀
