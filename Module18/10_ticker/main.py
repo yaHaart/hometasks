@@ -3,8 +3,6 @@ line2 = 'sdfgha'
 flag = False
 new_line = ''
 sdvig = 0
-# if len(line2) != len(line1):
-#     flag = False # выход
 
 for i in range(1, len(line1)):
     for j in range(len(line1)):
