@@ -1,7 +1,6 @@
 while True:
     ip_adress = input(' введите ip адрес ')
     ip_parts_list = ip_adress.split('.')
-    print(ip_parts_list)
     parts_correct = 0
     flag = False
     if ip_adress.count('.') != 3:
