@@ -79,3 +79,5 @@ line_preparation(line)
 # print(splited_line)
 result_all = bracket(splited_line)
 print('результат', result_all)
+
+# зачёт! 🚀

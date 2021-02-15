@@ -8,3 +8,6 @@ print(coordinates)
 oy = coordinates['North'] - coordinates['South']
 ox = coordinates['East'] - coordinates['West']
 print('Координаты: ', ox, oy)
+
+# зачёт! 🚀
+# очень круто получилось!

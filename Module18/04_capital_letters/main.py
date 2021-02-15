@@ -6,3 +6,5 @@ for word in word_list:
         word = word.capitalize()
     new_string += word + ' '
 print(new_string)
+
+# зачёт! 🚀

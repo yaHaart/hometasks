@@ -23,3 +23,5 @@ while True:
 
     if flag:
         break
+
+# зачёт! 🚀

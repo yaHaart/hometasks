@@ -5,3 +5,5 @@ for char in string:
         numbers_string += char
 
 print(numbers_string)
+
+# зачёт! 🚀
