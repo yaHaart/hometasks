@@ -10,3 +10,5 @@ for word in splited_line:
     new_line = ''.join(reversed(word)) + punkt_char
     print(new_line, end='')
     punkt_char = ' '
+
+# TODO нейминг! Исправить названия переменных, записанных транслитом (перевести на английский)
