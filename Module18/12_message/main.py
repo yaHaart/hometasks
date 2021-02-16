@@ -11,4 +11,4 @@ for word in splited_line:
     print(new_line, end='')
     punktuation_char = ' '
 
-
+# зачёт! 🚀
