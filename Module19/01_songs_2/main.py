@@ -20,4 +20,3 @@ for i_song in range(number_songs):
         print('Нет такой песни')
 
 print(f'Общее время звучания песен: {summ} минут')
-
