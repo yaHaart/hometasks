@@ -24,4 +24,12 @@ store = {
     ],
 }
 
-# TODO здесь писать код
+total_quantity = 0
+total_cost = 0
+for good in goods:
+    for purchase in store[goods[good]]:
+        total_quantity += purchase['quantity']
+        total_cost += purchase['quantity'] * purchase['price']
+    print(f'{good} - {total_quantity} шт, стоимость {total_cost} руб')
+    total_quantity = 0
+    total_cost = 0
