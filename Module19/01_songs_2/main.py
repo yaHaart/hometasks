@@ -10,4 +10,14 @@ violator_songs = {
     'Clean': 5.83
 }
 
-# TODO здесь писать код
+number_songs = 3
+summ = 0
+for i_song in range(number_songs):
+    user_song = input(f'Введите название {i_song + 1} песни ')
+    if user_song in violator_songs:
+        summ += violator_songs[user_song]
+    else:
+        print('Нет такой песни')
+
+print(f'Общее время звучания песен: {summ} минут')
+
