@@ -15,3 +15,5 @@ while True:
             break
         else:
             print('Такого слова в словаре нет.')
+
+# зачет!

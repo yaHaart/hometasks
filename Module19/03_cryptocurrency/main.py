@@ -67,3 +67,5 @@ print()
 # Внутри "sec_token_info" изменить название ключа “price” на “total_price”.
 (data['tokens'][0]['fst_token_info']['total_price']) = data['tokens'][0]['fst_token_info'].pop('price')
 print(data['tokens'][0]['fst_token_info'])
+
+# зачет!

@@ -18,3 +18,5 @@ for key, value in init_dict.items():
         revers_dict[value] = list(key)
 
 print(revers_dict)
+
+# зачет!

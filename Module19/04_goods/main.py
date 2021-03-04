@@ -26,6 +26,7 @@ store = {
 
 total_quantity = 0
 total_cost = 0
+# TODO А здесь почему не применили .items()?
 for good in goods:
     for purchase in store[goods[good]]:
         total_quantity += purchase['quantity']
@@ -33,3 +34,5 @@ for good in goods:
     print(f'{good} - {total_quantity} шт, стоимость {total_cost} руб')
     total_quantity = 0
     total_cost = 0
+
+# зачет!

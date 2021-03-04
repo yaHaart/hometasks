@@ -26,3 +26,5 @@ for i_cities in range(number_cities):
         print(f'По городу {user_city} данных нет.')
     city_print = ''
     countries_print = ''
+
+# зачет!

@@ -38,6 +38,7 @@ for kid_name in paires:
         # не заморачиваемся. Считаем, что прародитель есть всегда.
     count = 1
     flag = False
+# TODO Переменные созданные в цикле вне цикла использовать нельзя - это может вызывать ошибки.
 result_dict[grandparent] = 0
 
 sorted_list_keys = list(result_dict.keys())
@@ -47,3 +48,5 @@ print('“Высота” каждого члена семьи:')
 for i in sorted_list_keys:
     print(i, result_dict[i])
 # print(result_dict)
+
+# зачет!

@@ -26,3 +26,5 @@ for i_guess in range(guesses):
                 number_list.remove(i_number)
     guess_list.clear()
 print('Артём мог загадать следующие числа: ', number_list)
+
+# зачет!
