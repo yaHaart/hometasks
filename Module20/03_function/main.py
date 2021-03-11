@@ -2,7 +2,7 @@ my_tuple = ('a', 'c', 'v', 'c', 'd', 'v', 's', 'v')
 char_to_count = 'v'
 new_tuple = tuple()
 
-
+# TODO Нужные данные нужно передавать в параметрах функции
 def new_tuple_creating(number_chars):
     if number_chars == 0:
         new_tuple: tuple = ()
@@ -19,3 +19,5 @@ def new_tuple_creating(number_chars):
 
 
 print('ответ', new_tuple_creating(my_tuple.count(char_to_count)))
+
+# зачет!

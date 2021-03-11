@@ -1,3 +1,4 @@
+# TODO Открывать файлы лучше контекстным менеджером - with
 file = open('results.txt', 'r')
 winners = dict()
 temp_list = []
@@ -57,3 +58,5 @@ for i in range(1, len(winners) + 1):
     for winner_key, winner_value in winners.items():
         if winner_value[1] == i:
             print(i, 'место', winner_key, winner_value[0])
+
+# зачет!

@@ -14,3 +14,5 @@ print(new_list)
 for i in range(0, len(origin_list), 2):
     new_list1.append(tuple([origin_list[i], origin_list[i + 1]]))
 print(new_list1)
+
+# зачет!

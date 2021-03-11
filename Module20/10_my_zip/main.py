@@ -14,8 +14,4 @@ for i in range(min(len(line), len(some_iterable_object))):
 print(id(new_list))
 print(new_list)
 
-
-
-
-
-
+# зачет!

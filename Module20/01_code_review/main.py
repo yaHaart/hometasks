@@ -39,3 +39,5 @@ list_of_interests, surnames = interests_and_age(students)
 for interest in list_of_interests:
     print(interest)
 print(surnames)
+
+# зачет!

@@ -13,3 +13,5 @@ for player in players:
     new_list.append(tuple(temp_list))
     temp_list.clear()
 print(new_list)
+
+# зачет!

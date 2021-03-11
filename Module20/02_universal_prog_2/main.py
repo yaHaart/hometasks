@@ -4,7 +4,9 @@ some_iterables = 'abcdefghijklmnop'
 
 
 def crypto_function(iterable_object):
-    return [some_iterables[i] for i in range(2, len(iterable_object)) if is_prime(i)]
+    # TODO Используйте параметр функции, а не переменную на глобальном уровне.
+    #  также "range - len" - это плохой стиль для индексов всегда стоит использовать "enumerate"
+    return [some_iterables[i] for i in range(len(iterable_object)) if is_prime(i)]
 
 
 def is_prime(n):
@@ -16,3 +18,5 @@ def is_prime(n):
 
 prime_list = crypto_function(some_iterables)
 print(prime_list)
+
+# зачет!

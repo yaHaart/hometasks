@@ -4,6 +4,7 @@ origin_tuple = (2, 5, 7, 3, 8, 2, 4.4, 4, 6, 9, 0, 4, 1, 5)
 def tuple_sort(some_tuple):
     list_sorted = list(some_tuple)
     list_sorted.sort()
+    # TODO Счетчик это лишнее, можно сразу возвращать переданный объект если встретился целый тип "int"
     count = 0
     for number in list_sorted:
         if type(number) is not int:
@@ -18,3 +19,5 @@ def tuple_sort(some_tuple):
 
 print(origin_tuple)
 print(tuple_sort(origin_tuple))
+
+# зачет!

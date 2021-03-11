@@ -10,3 +10,5 @@ surname = 'Сидоров'
 for human in db:
     if human[0].lower().find(surname.lower()) >= 0:
         print(human[0], human[1], db[human])
+
+# зачет!

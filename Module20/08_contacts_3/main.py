@@ -41,3 +41,5 @@ while True:
         new_human(surname, name, telephone)
     else:
         break
+
+# зачет!
