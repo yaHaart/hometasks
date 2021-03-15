@@ -38,5 +38,7 @@ number_of_sites = 2
 
 for _ in range(number_of_sites):
     telephone = input('Название телефона ')
+    # TODO Основную структуру лучше не менять, а передавать копию.
+    #  .copy() или лучше from copy import deepcopy
     parsing_dict(site, telephone)
     print(site)
