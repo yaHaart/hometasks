@@ -12,3 +12,5 @@ def move(n, start, finish):
 number_of_disks = int(input('КОличество дисков: '))
 
 move(number_of_disks, 1, 3)
+
+# зачет!

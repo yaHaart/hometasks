@@ -8,3 +8,5 @@ def print_next_number(number):
 
 
 print_next_number(1)
+
+# зачет!

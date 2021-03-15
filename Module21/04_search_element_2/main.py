@@ -28,3 +28,5 @@ def parsing_dict(struct, key_to_find):
 
 
 print(parsing_dict(site, key_to_find))
+
+# зачет!
