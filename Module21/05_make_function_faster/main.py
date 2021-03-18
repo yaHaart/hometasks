@@ -1,19 +1,26 @@
-# не понял условие задачи. data - это число. считаем мы все один раз. что и как не нужно пересчитывать?
-# TODO Здесь нужно создать словарь в который будут заносится знамения факториалов.
-#  В функции при вычислении факториалов нужно дополнять словарь значениями.
-#  .
-#  Например:
-#  первый вызов вызывали функцию с параметром 5 - словарь пуст, вычисляем переданный факториал
-#  заполняем словарь - {2: 2, 3: 6, 4: 24, 5: 120}
-#  второй вызов функции  с параметром 9 - в словаре уже есть данные берем их, чтобы заново не вычислять с единицы
-#  т.е переменная "result" уже берет значение не единицы, а факториала 5 - 120
-def calculating_math_func(data):
-    result = 1
-    for index in range(1, data + 1):
+from random import randint
+factorials = {}
+
+
+def calculating_math_func(start, data, result):
+    for index in range(start, data + 1):
         result *= index
-    result /= data ** 3
-    result = result ** 10
-    return result
+        factorials[index] = result
 
 
-print(calculating_math_func(10))
+for _ in range(5):
+    argument = randint(3, 7)
+    if len(factorials) == 0:
+        calculating_math_func(1, argument, 1)
+        math_result = factorials[argument]
+    elif argument in factorials:
+        math_result = factorials[argument]
+    else:
+
+        max_factorial = len(factorials)
+        calculating_math_func(max_factorial + 1, argument, factorials[max_factorial])
+        math_result = factorials[argument]
+
+    math_result /= math_result ** 3
+    math_result = math_result ** 10
+    print(argument, math_result)
