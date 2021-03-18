@@ -6,3 +6,17 @@
 #  Циклами за исключением генераторов,
 #  условными операторами и функциями определения типа(isinstance или type) пользоваться нельзя.
 #  Функция должна возвращать список из пар кортежей.
+
+var1 = 'qawsed1ss'
+var2 = (1, 3, 5, 7, 9, 11, 2)
+new_list = []
+
+
+def manual_zip(func_var1, func_var2):
+    new_list.append((func_var1[0], func_var2[0]))
+    if len(func_var1) > 1 and len(func_var2) > 1:
+        manual_zip(func_var1[1:], func_var2[1:])
+
+
+manual_zip(var1, var2)
+print(new_list)
