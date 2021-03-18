@@ -14,3 +14,5 @@ def summ(structure):
 summa = summ(some_list)
 
 print(summa)
+
+# зачёт! 🚀

@@ -24,3 +24,5 @@ for _ in range(5):
     math_result /= math_result ** 3
     math_result = math_result ** 10
     print(argument, math_result)
+
+# зачёт! 🚀

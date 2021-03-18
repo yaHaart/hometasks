@@ -44,3 +44,5 @@ for _ in range(number_of_sites):
     parsing_dict(site_copy, telephone)
     print(site_copy)
     # print(site)
+
+# зачёт! 🚀

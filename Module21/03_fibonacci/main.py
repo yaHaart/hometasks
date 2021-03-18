@@ -9,3 +9,5 @@ def fibonacci(n):
 
 
 print(index_number, '-ый элемент ряда ', fibonacci(index_number))
+
+# зачёт! 🚀
