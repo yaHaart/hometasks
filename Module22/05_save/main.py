@@ -20,3 +20,5 @@ if os.path.exists(os.path.join(new_path, file_name)):
 
 with open(os.path.join(new_path, file_name), 'w', encoding='UTF-8') as file:
     file.write(text)
+
+# зачёт! 🚀

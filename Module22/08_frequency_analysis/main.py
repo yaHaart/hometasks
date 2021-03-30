@@ -36,3 +36,5 @@ with open('analysis.txt', 'a', encoding='utf-8') as file:
                 file.write(str(key) + '   ' + str(share_letters[key]) + '\n')
                 del share_letters[key]
                 break
+
+# зачёт! 🚀

@@ -33,3 +33,5 @@ with open('result.txt', 'a', encoding='utf-8') as rf:
                 rf.write(str(key) + '  ' + str(letters_dict[key]) + '\n')
                 letters_dict.pop(key)
                 break
+
+# зачёт! 🚀

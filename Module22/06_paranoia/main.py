@@ -22,4 +22,4 @@ with open('text.txt', 'r', encoding='UTF-8') as file:
 
         rf.write(encrypted_line + '\n')
 
-
+# зачёт! 🚀

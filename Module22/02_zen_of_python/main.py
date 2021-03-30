@@ -6,3 +6,4 @@ print(temp_list)
 for line in reversed(temp_list):
     print(line)
 
+# зачёт! 🚀

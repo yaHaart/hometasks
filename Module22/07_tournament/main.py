@@ -22,3 +22,5 @@ with open('second_tour.txt', 'a', encoding='utf-8') as sf:
     sf.write(str(len(sorted_second_tour_players)) + '\n')
     for player in sorted_second_tour_players:
         sf.write(player[0] + ' ' + str(player[1]) + '\n')
+
+# зачёт! 🚀

@@ -12,7 +12,9 @@ def go_in_folder(path_to_go, file_count, file_size):
     return file_count, file_size
 
 
-path_to_folder = '/Users/haart/PycharmProjects/python_basic/'
+path_to_folder = '/Users/aguseva/PycharmProjects/iurii_alekhin/Module22'
 summ, size = go_in_folder(path_to_folder, 0, 0)
 
 print('Количество файлов:', summ, '       Размер, байт:', size)
+
+# зачёт! 🚀
