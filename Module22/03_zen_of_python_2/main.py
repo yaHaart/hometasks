@@ -25,5 +25,6 @@ with open('zen.txt', 'r', encoding='utf=8') as file:
 for value in letters.values():
     letters_count += value
 print(letters_count, word_count, line_count)
-inv_letters_dict = {value: key for key, value in letters.items()}
-print(inv_letters_dict[max(letters.values())], max(letters.values()))
+inv_letters_dict = {value: key for key, value in letters.items()}  # TODO Количество букв в файле: 652
+# TODO вместо 137 должно быть 136 так как "--" словом не является
+print(inv_letters_dict[max(letters.values())], max(letters.values()))  # TODO Реже всего встречается буква k (2 раза)
