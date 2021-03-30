@@ -3,9 +3,12 @@ letters = {}
 
 
 def words_and_letters_count(string):
+    service_symbol = '!.*-\','
     number_of_words = len(string.split())
     for char in string:
-        if char.lower() in letters:
+        if char in service_symbol:
+            pass
+        elif char.lower() in letters:
             letters[char.lower()] += 1
         elif char == ' ' or char == '\n':
             pass
@@ -25,6 +28,5 @@ with open('zen.txt', 'r', encoding='utf=8') as file:
 for value in letters.values():
     letters_count += value
 print(letters_count, word_count, line_count)
-inv_letters_dict = {value: key for key, value in letters.items()}  # TODO Количество букв в файле: 652
-# TODO вместо 137 должно быть 136 так как "--" словом не является
-print(inv_letters_dict[max(letters.values())], max(letters.values()))  # TODO Реже всего встречается буква k (2 раза)
+inv_letters_dict = {value: key for key, value in letters.items()}
+print(inv_letters_dict[min(letters.values())], min(letters.values()))
