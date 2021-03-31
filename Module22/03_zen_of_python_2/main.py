@@ -1,9 +1,12 @@
+import string as st  # TODO так как string - это название встроенной в питон библиотеки,
+# TODO то для наименования переменных имя string - не самый лучший выбор
 temp_list = []
 letters = {}
 
 
 def words_and_letters_count(string):
-    service_symbol = '!.*-\','
+    # service_symbol = '!.*-\','
+    service_symbol = st.punctuation  # TODO попробуйте воспользоваться таким приёмом
     number_of_words = len(string.split())
     for char in string:
         if char in service_symbol:
@@ -30,3 +33,5 @@ for value in letters.values():
 print(letters_count, word_count, line_count)
 inv_letters_dict = {value: key for key, value in letters.items()}
 print(inv_letters_dict[min(letters.values())], min(letters.values()))
+
+# TODO пока всё равно считает, что слов 137, а не 136
