@@ -1,11 +1,11 @@
-import string as st
+import string
 
 temp_list = []
 letters = {}
 
 
 def words_and_letters_count(string_from_file):
-    service_symbol = st.punctuation
+    service_symbol = string.punctuation
     number_of_words = 0
     for word in string_from_file.split():
         for symbol in word:
@@ -38,3 +38,6 @@ for value in letters.values():
 print(letters_count, word_count, line_count)
 inv_letters_dict = {value: key for key, value in letters.items()}
 print(inv_letters_dict[min(letters.values())], min(letters.values()))
+
+# зачёт! 🚀
+# отлично!
