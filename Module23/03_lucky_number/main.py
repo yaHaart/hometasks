@@ -12,6 +12,7 @@ while summ < 777:
         roulette = randint(1, 13)
         print(roulette)
         if roulette == 13:
+            # TODO случайное исключение получить можно таким способом: random.choice(Exception.__subclasses__())
             raise BaseException()
 
     except ValueError:
