@@ -33,3 +33,5 @@ with open('registrations.txt', 'r') as base_file:
         except ValueError:
             with open('registrations_bad.log', 'a') as bad_file:
                 bad_file.write(str(count) + '   ' + 'ValueError    ' + line)
+
+# зачёт! 🚀

@@ -18,3 +18,5 @@ with open('people.txt', 'r', ) as pfile:
                 logfile.write('ошибка длины в имени ' + line )
 
 print('Итоговая сумма', summ)
+
+# зачёт! 🚀
