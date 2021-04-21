@@ -1,4 +1,4 @@
-from random import randint
+from random import randint, choice
 
 with open('numbers.txt', 'w', encoding='UTF-8') as file:
     pass
@@ -10,13 +10,14 @@ while summ < 777:
             file.write(str(number) + '\n')
         summ += number
         roulette = randint(1, 13)
-        print(roulette)
+
         if roulette == 13:
-            # TODO случайное исключение получить можно таким способом: random.choice(Exception.__subclasses__())
-            raise BaseException()
+            #  случайное исключение получить можно таким способом: random.choice(Exception.__subclasses__())
+            raise choice(Exception.__subclasses__())
 
     except ValueError:
         print('ввведите только число!')
-    except BaseException:
+    except Exception as ex:
         print('тебе не повезло')
+        print(ex.__doc__)  # это чтобы видеть, что происходит
         break
