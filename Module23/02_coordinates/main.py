@@ -32,3 +32,5 @@ except Exception:
     print("Что-то пошло не так")
 except ZeroDivisionError:
     print('Случайно поделили на 0')
+
+# зачёт! 🚀

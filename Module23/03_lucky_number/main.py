@@ -16,8 +16,10 @@ while summ < 777:
             raise choice(Exception.__subclasses__())
 
     except ValueError:
-        print('ввведите только число!')
+        print('введите только число!')
     except Exception as ex:
         print('тебе не повезло')
         print(ex.__doc__)  # это чтобы видеть, что происходит
         break
+
+# зачёт! 🚀
