@@ -16,7 +16,7 @@ def username():
 
 
 print('Управление: *** смена пользователя')
-print('            @@@ заевершение чата')
+print('            @@@ завершение чата')
 current_user = ''
 while True:
     if current_user == '':
@@ -32,3 +32,7 @@ while True:
         db[current_time] = [current_user, user_input]
 
 print(db)
+
+# NOTE 1) смена пользователя работает некорректно (выдаёт ошибку TypeError: 'set' object is not subscriptable)
+# 2) формат даты лучше использовать понятный человеку:
+#  {1619182769.2150478: ['qwew qwe', 'qwe'], 1619182769.7676811: ['qwew qwe', 'ewq']}
