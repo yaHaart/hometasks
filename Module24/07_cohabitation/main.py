@@ -117,3 +117,5 @@ for i in range(365):
         break
     print(f'Прошел {i} день.  {man_1.name} имеет сытость {man_1.hungry}. '
           f'{man_2.name} имеет сытость {man_2.hungry}.  Еды {fridge.frost_food}, денег {locker.locker_money}')
+
+# зачёт! 🚀

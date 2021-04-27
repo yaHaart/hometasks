@@ -55,3 +55,5 @@ for i in sorted_list:
             print(student.name, student.surname, student.group, '     средний балл: ', student.avg_grade)
             students_group.pop(students_group.index(student))
             break
+
+# зачёт! 🚀

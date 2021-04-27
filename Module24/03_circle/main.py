@@ -32,3 +32,5 @@ circle_1.perimeter()
 circle_1.multiply(2)
 circle_2 = Circle([1, 2], 2)
 circle_1.cross(circle_2.center, circle_2.radius)
+
+# зачёт! 🚀

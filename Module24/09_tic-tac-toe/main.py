@@ -58,3 +58,5 @@ def main(board):
 
 
 main(board)
+
+# зачёт! 🚀
