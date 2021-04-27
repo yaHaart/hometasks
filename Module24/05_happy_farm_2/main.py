@@ -65,3 +65,5 @@ for _ in range(3):
 gardener.harvesting()
 
 print(gardener.garden_bed.potatoes)
+
+# зачёт! 🚀

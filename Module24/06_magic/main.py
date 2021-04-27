@@ -85,3 +85,5 @@ fire = Fire()
 water = Water()
 
 print(fire + water)
+
+# зачёт! 🚀
