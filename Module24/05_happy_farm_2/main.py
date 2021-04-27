@@ -49,8 +49,9 @@ class Gardener:
 
     def harvesting(self):
         if self.garden_bed.are_all_ripe():
+            print('Собрали всю картошку:', len(self.garden_bed.potatoes), 'кустов')
             self.garden_bed.potatoes = []
-            print('Собрали всю картошку')
+
         else:
             print('Картошка еще не созрела')
 
@@ -63,6 +64,4 @@ for _ in range(3):
     gardener.garden_bed.are_all_ripe()
 gardener.harvesting()
 
-print(gardener.garden_bed.potatoes)  # TODO в итоге количество собранного урожая не отобразилось
-# TODO Собрали всю картошку
-#  []
+print(gardener.garden_bed.potatoes)
