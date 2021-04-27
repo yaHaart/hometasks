@@ -10,7 +10,7 @@ class Air:
             return Dust()
         elif isinstance(other, Fire):
             return Lightning()
-        else:
+        else:  # TODO эту ветку можно не писать. Если функция не попадёт ни в одну из веток, то по-умолчанию вернёт None
             return None
 
 
@@ -25,7 +25,7 @@ class Earth:
             return Dust()
         elif isinstance(other, Fire):
             return Lava()
-        else:
+        else:  # TODO и так далее (см. замечание выше)
             return None
 
 

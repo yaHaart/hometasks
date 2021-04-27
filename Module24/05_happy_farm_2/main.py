@@ -63,4 +63,6 @@ for _ in range(3):
     gardener.garden_bed.are_all_ripe()
 gardener.harvesting()
 
-print(gardener.garden_bed.potatoes)
+print(gardener.garden_bed.potatoes)  # TODO в итоге количество собранного урожая не отобразилось
+# TODO Собрали всю картошку
+#  []
