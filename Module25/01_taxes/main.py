@@ -9,20 +9,20 @@ class Property:
 
 class Appartment(Property):
     def tax(self):
-        print(f'Налог на квартиру стоимостью {self.worth} составляет {self.worth/1000}')
+        print(f'Налог на квартиру стоимостью {self.worth} составляет {self.worth / 1000}')
         return self.worth / 1000
 
 
 class Car(Property):
     def tax(self):
-        print(f'Налог на машину стоимостью {self.worth} составляет {self.worth/200}')
-        return self.worth/200
+        print(f'Налог на машину стоимостью {self.worth} составляет {self.worth / 200}')
+        return self.worth / 200
 
 
 class CountryHouse(Property):
     def tax(self):
-        print(f'Налог на дом стоимостью {self.worth} составляет {self.worth/500}')
-        return self.worth/500
+        print(f'Налог на дом стоимостью {self.worth} составляет {self.worth / 500}')
+        return self.worth / 500
 
 
 text_input = ''
@@ -55,10 +55,11 @@ while True:
     except ValueError:
         print('стоимость должна быть целым натуральным числом')
 
-
 money = int(input('Сколько денег у вас есть на налоги? '))
 
 if money >= summ:
     print('У вас хватит денег на оплату налогов')
 else:
     print(f'У вас не хватает {summ - money} рублей')
+
+# зачёт! 🚀

@@ -53,3 +53,5 @@ try:
 
 except ValueError as ve:
     print(ve)
+
+# зачёт! 🚀

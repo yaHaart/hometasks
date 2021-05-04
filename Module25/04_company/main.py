@@ -30,6 +30,7 @@ class Employee(Person):
 class Manager(Employee):
     def __init__(self, name, surname, age):
         super().__init__(name, surname, age)
+        # NOTE если метод полностью повторяет родительский, то переопределять его не нужно
 
     @staticmethod
     def salery():
@@ -88,5 +89,6 @@ summ = 0
 for i_employee in employee_list:
     summ += i_employee.salery()
 
-
 print('ФОТ ', summ)
+
+# зачёт! 🚀

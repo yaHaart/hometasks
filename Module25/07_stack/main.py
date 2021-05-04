@@ -62,3 +62,5 @@ except IndexError as ie:
     print(ie)
 except ValueError as ve:
     print(ve)
+
+# зачёт! 🚀

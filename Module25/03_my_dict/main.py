@@ -14,3 +14,5 @@ print(dict2.get(1))
 
 print(dict1.get(2))
 print(dict2.get(2))
+
+# зачёт! 🚀
